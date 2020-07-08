@@ -14,7 +14,7 @@ export default (props) => {
                 Currently looking for work in Boston, MA.
                 <br /><br />
                 Previously I’ve worked in Sales at early stage startups including <a href="ionicframework.com">Ionic</a>, an open-source SDK for hybrid mobile app development.
-
+                <br /><br />
                 Feel free to contact me at <a href="mailto:samueleganbevan@gmail.com">samueleganbevan@gmail.com</a>
 
                     </p>
