@@ -1,0 +1,336 @@
+//variables
+$main-color: #2657ef;
+$secondary-color: white;
+$accent-color: #fee4d0;
+$hover-color: rgb(180, 179, 179);
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+html, body {
+    padding: 0;
+    height: 100%;
+    background-color: white;
+}
+
+//////////////////////
+//Nav Styling
+//////////////////////
+
+.Nav {
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    &__img {
+        img{
+            width: 8%;
+            margin-bottom: 2%;
+        }
+    }
+
+    &__links {
+        width: 180px;
+        display: flex;
+        justify-content: space-evenly;
+        span {
+            font-size: 1em;
+        }
+    }
+}
+
+.App {
+    width: 70%;
+    margin: 0 auto;
+    &__header {
+        margin-top: 5%;
+        width: 50%;
+        letter-spacing: .1em;
+        h1{
+            font-weight: 500;
+            font-size: 180%;
+        }
+    }
+    &__projects {
+        margin-top: 8%;
+        color: white;
+        &__project1 {
+            position: relative;
+            margin-bottom: 3%;
+            img {
+                width: 100%;
+                border: 1px solid #5354f6;
+                border-radius: 5px;
+                margin: 0;
+            }
+            &__heading {
+                position: absolute;
+                top: 5%;
+                left: 2%;
+                margin: 0;
+                font-size: 2em;
+                width: 25%;
+            }
+            &__info {
+                position: absolute;
+                top: 18%;
+                left: 2%;
+                margin: 0;
+                width: 25%;
+                font-weight: 300;
+                font-size: 1.2em;
+            }
+            
+        }
+        &__project2 {
+            position: relative;
+            margin-bottom: 3%;
+            img {
+                width: 100%;
+                border: 1px solid #184bad;
+                border-radius: 5px;
+                margin: 0;
+            }
+            &__heading {
+                position: absolute;
+                top: 5%;
+                left: 2%;
+                margin: 0;
+                font-size: 2em;
+                width: 25%;
+            }
+            &__info {
+                position: absolute;
+                top: 18%;
+                left: 2%;
+                margin: 0;
+                width: 25%;
+                font-weight: 300;
+                font-size: 1.2em;
+            }
+        }
+        &__project3 {
+            position: relative;
+            margin-bottom: 3%;
+            img {
+                width: 100%;
+                border: 1px solid #09999e;
+                border-radius: 5px;
+                margin: 0;
+            }
+            &__heading {
+                position: absolute;
+                top: 5%;
+                left: 2%;
+                margin: 0;
+                font-size: 2em;
+                width: 25%;
+            }
+            &__info {
+                position: absolute;
+                top: 18%;
+                left: 2%;
+                margin: 0;
+                width: 25%;
+                font-weight: 300;
+                font-size: 1.2em;
+            }
+        }
+        &__project4 {
+            position: relative;
+            margin-bottom: 3%;
+            img {
+                width: 100%;
+                border: 1px solid #508f4c;
+                border-radius: 5px;
+                margin: 0;
+            }
+            &__heading {
+                position: absolute;
+                top: 5%;
+                left: 2%;
+                margin: 0;
+                font-size: 2em;
+                width: 25%;
+            }
+            &__info {
+                position: absolute;
+                top: 18%;
+                left: 2%;
+                margin: 0;
+                width: 25%;
+                font-weight: 300;
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+// .App__projects__project1:hover{
+//     img{
+        
+//     }
+// }
+
+#portfolio-text {
+    color: black;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+#profile-text {
+    color: rgb(133, 133, 133);
+    font-weight: 400;
+}
+
+#profile-text:hover {
+    color:black;
+}
+
+#profile-text-profile {
+    color: black;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+#portfolio-text-profile {
+    color: rgb(133, 133, 133);
+    font-weight: 400;
+}
+
+#portfolio-text-profile:hover {
+    color:black;
+}
+
+@media screen and (max-width: 1235px) and (min-width: 701px) {
+    .App__projects__project1__heading {
+        font-size: 1.5em;
+        width: 35%;
+    }
+    .App__projects__project2__heading {
+        font-size: 1.5em;
+        width: 35%;
+    }
+    .App__projects__project3__heading {
+        font-size: 1.5em;
+        width: 35%;
+    }
+    .App__projects__project4__heading {
+        font-size: 1.5em;
+        width: 35%;
+    }
+
+    .App__projects__project1__info {
+        font-size: .9em;
+        top: 30%;
+    }
+    .App__projects__project2__info {
+        font-size: .9em;
+        top: 30%;
+    }
+    .App__projects__project3__info {
+        font-size: .9em;
+        top: 30%;
+    }
+    .App__projects__project4__info {
+        font-size: .9em;
+        top: 30%;
+    }
+
+    #portfolio-text {
+        margin-right: 5px !important;
+    }
+
+    #portfolio-text-profile {
+        margin-right: 5px !important;
+    }
+
+    .Nav {
+        &__img {
+            img{
+                width: 20%;
+            }
+        }
+        &__links{
+            width: 60%;
+            margin-right: 2%;
+    
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .App__projects__project1__heading {
+        font-size: .8em;
+        width: 35%;
+    }
+    .App__projects__project2__heading {
+        font-size: .8em;
+        width: 35%;
+    }
+    .App__projects__project3__heading {
+        font-size: .8em;
+        width: 35%;
+    }
+    .App__projects__project4__heading {
+        font-size: .8em;
+        width: 35%;
+    }
+
+    .App__projects__project1__info {
+        font-size: .5em;
+        top: 25%;
+    }
+    .App__projects__project2__info {
+        font-size: .5em;
+        top: 25%;
+    }
+    .App__projects__project3__info {
+        font-size: .5em;
+        top: 25%;
+    }
+    .App__projects__project4__info {
+        font-size: .5em;
+        top: 25%;
+    }
+
+    .App {
+        width:95%;
+        &__header {
+            width: 100%;
+        }
+    }
+
+    .Nav {
+        width: 100%;
+        margin: 0;
+        &__img {
+            img{
+                width: 40%;
+            }
+        }
+        &__links{
+            width: 60%;
+            margin-right: 2%;
+    
+        }
+    }
+
+    #portfolio-text {
+        margin-right: 5px !important;
+    }
+
+    #portfolio-text-profile {
+        margin-right: 5px !important;
+    }
+
+    
+
+
+}
