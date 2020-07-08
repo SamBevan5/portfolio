@@ -9,7 +9,7 @@ export default (props) => {
             <div className="Profile">
                 <div className="Profile__info">
                     <p>
-                        I’m a full stackdeveloper interested in frontend design, technology and workmanship.
+                I’m a full stackdeveloper interested in art, technology and sports.
                 <br /><br />
                 Currently looking for work in Boston, MA.
                 <br /><br />
@@ -21,12 +21,10 @@ export default (props) => {
                 </div>
                 <div className="Profile__image">
                     <div className="Profile__image__img">
-                        <img></img>
-
                     </div>
                 
                     <div className="Profile__image__links">
-                        <img src="portfolio.png"></img>
+                        <img src="portfolio.png" alt="profileimage"></img>
                         <a href="">LinkedIn</a>
                         <a href="">GitHub</a>
                         <a href="">Check out my Resume</a>
